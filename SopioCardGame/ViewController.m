@@ -25,15 +25,23 @@
     self.handView4.userInteractionEnabled = YES;
     self.handView5.userInteractionEnabled = YES;
     
-    UITapGestureRecognizer *tap =
+    UITapGestureRecognizer *tap1 =
     [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleTap:)];
-    tap.numberOfTapsRequired = 1;
-    [self.handView1 addGestureRecognizer:tap];
+    UITapGestureRecognizer *tap2 =
+    [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleTap:)];
+    UITapGestureRecognizer *tap3 =
+    [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleTap:)];
+    UITapGestureRecognizer *tap4 =
+    [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleTap:)];
+    UITapGestureRecognizer *tap5 =
+    [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleTap:)];
+    //tap.numberOfTapsRequired = 1;
+    [self.handView1 addGestureRecognizer:tap1];
     
-    [self.handView2 addGestureRecognizer:tap];
-    [self.handView3 addGestureRecognizer:tap];
-    [self.handView4 addGestureRecognizer:tap];
-    [self.handView5 addGestureRecognizer:tap];
+    [self.handView2 addGestureRecognizer:tap2];
+    [self.handView3 addGestureRecognizer:tap3];
+    [self.handView4 addGestureRecognizer:tap4];
+    [self.handView5 addGestureRecognizer:tap5];
     
     
 }
@@ -46,6 +54,8 @@
 
 - (void)handleTap:(UITapGestureRecognizer *)recognizer {
     NSLog(@"Called");
+    //*rect = [CGRect alloc] init;
+    self.popUpSelector = [[UIView alloc] initWithFrame:<#(CGRect)#>
     
     
     
