@@ -18,6 +18,11 @@
 		3FEC34461781FECF0007BDDF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FEC34451781FECF0007BDDF /* Default-568h@2x.png */; };
 		3FEC34491781FECF0007BDDF /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FEC34471781FECF0007BDDF /* MainStoryboard.storyboard */; };
 		3FEC344C1781FECF0007BDDF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEC344B1781FECF0007BDDF /* ViewController.m */; };
+		3FEC34541781FF5B0007BDDF /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEC34531781FF5B0007BDDF /* Card.m */; };
+		3FEC3457178206200007BDDF /* SillyConeVally.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FEC3456178206200007BDDF /* SillyConeVally.png */; };
+		3FEC3459178233C00007BDDF /* SopioLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FEC3458178233C00007BDDF /* SopioLogo.png */; };
+		3FEC345B1782361D0007BDDF /* blankLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FEC345A1782361D0007BDDF /* blankLogo.png */; };
+		3FEC345E178237770007BDDF /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEC345D178237770007BDDF /* Player.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +42,13 @@
 		3FEC34481781FECF0007BDDF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		3FEC344A1781FECF0007BDDF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3FEC344B1781FECF0007BDDF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3FEC34521781FF5B0007BDDF /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		3FEC34531781FF5B0007BDDF /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		3FEC3456178206200007BDDF /* SillyConeVally.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SillyConeVally.png; sourceTree = "<group>"; };
+		3FEC3458178233C00007BDDF /* SopioLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SopioLogo.png; sourceTree = "<group>"; };
+		3FEC345A1782361D0007BDDF /* blankLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blankLogo.png; sourceTree = "<group>"; };
+		3FEC345C178237770007BDDF /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		3FEC345D178237770007BDDF /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +95,18 @@
 		3FEC34351781FECF0007BDDF /* SopioCardGame */ = {
 			isa = PBXGroup;
 			children = (
+				3FEC345A1782361D0007BDDF /* blankLogo.png */,
+				3FEC3458178233C00007BDDF /* SopioLogo.png */,
+				3FEC3456178206200007BDDF /* SillyConeVally.png */,
 				3FEC343E1781FECF0007BDDF /* AppDelegate.h */,
 				3FEC343F1781FECF0007BDDF /* AppDelegate.m */,
 				3FEC34471781FECF0007BDDF /* MainStoryboard.storyboard */,
 				3FEC344A1781FECF0007BDDF /* ViewController.h */,
 				3FEC344B1781FECF0007BDDF /* ViewController.m */,
+				3FEC34521781FF5B0007BDDF /* Card.h */,
+				3FEC34531781FF5B0007BDDF /* Card.m */,
+				3FEC345C178237770007BDDF /* Player.h */,
+				3FEC345D178237770007BDDF /* Player.m */,
 				3FEC34361781FECF0007BDDF /* Supporting Files */,
 			);
 			path = SopioCardGame;
@@ -163,6 +182,9 @@
 				3FEC34441781FECF0007BDDF /* Default@2x.png in Resources */,
 				3FEC34461781FECF0007BDDF /* Default-568h@2x.png in Resources */,
 				3FEC34491781FECF0007BDDF /* MainStoryboard.storyboard in Resources */,
+				3FEC3457178206200007BDDF /* SillyConeVally.png in Resources */,
+				3FEC3459178233C00007BDDF /* SopioLogo.png in Resources */,
+				3FEC345B1782361D0007BDDF /* blankLogo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +198,8 @@
 				3FEC343C1781FECF0007BDDF /* main.m in Sources */,
 				3FEC34401781FECF0007BDDF /* AppDelegate.m in Sources */,
 				3FEC344C1781FECF0007BDDF /* ViewController.m in Sources */,
+				3FEC34541781FF5B0007BDDF /* Card.m in Sources */,
+				3FEC345E178237770007BDDF /* Player.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
