@@ -124,6 +124,21 @@
         <image name="SopioLogo.png" width="295" height="198"/>
         <image name="blankLogo.png" width="114" height="193"/>
     </resources>
+    <classes>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="handView1" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="handView2" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="handView3" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="handView4" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="handView5" candidateClass="UIImageView"/>
+            </relationships>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
         <simulatedOrientationMetrics key="orientation"/>
