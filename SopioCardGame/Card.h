@@ -11,5 +11,6 @@
 @interface Card : NSObject
 @property (strong, nonatomic) UIImageView *cardView;
 @property (nonatomic) int pointValue;
-
+@property (strong, nonatomic) NSString *picture;
+-(id) initWithPointValue: (int)points withPicture:(NSString*)image ;
 @end

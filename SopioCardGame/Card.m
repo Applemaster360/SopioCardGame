@@ -12,10 +12,17 @@
 @synthesize cardView = _cardView;
 @synthesize pointValue = _pointValue;
 
--(id) initWithPointValue: (int)points withPicture:(NSString*)picture {
+-(id) initWithPointValue: (int)points withPicture:(NSString*)image {
     self = [super init];
     self.pointValue = points;
+    self.picture = image;
+    return self; 
 }
 
-
+-(NSString *)description
+{
+    
+    NSString *returnString = [[NSString alloc] initWithFormat: @"Card pointvalue: %i card image: %@", self.pointValue, self.picture];
+    return returnString;
+}
 @end

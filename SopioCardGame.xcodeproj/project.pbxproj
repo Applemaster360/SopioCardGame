@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F65728D178344090081DDF5 /* Acrobat.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F657282178344090081DDF5 /* Acrobat.png */; };
+		3F65728E178344090081DDF5 /* Clubs.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F657283178344090081DDF5 /* Clubs.png */; };
+		3F65728F178344090081DDF5 /* CowBoyBuilder.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F657284178344090081DDF5 /* CowBoyBuilder.png */; };
+		3F657290178344090081DDF5 /* DancingGang.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F657285178344090081DDF5 /* DancingGang.png */; };
+		3F657291178344090081DDF5 /* Diamonds.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F657286178344090081DDF5 /* Diamonds.png */; };
+		3F657292178344090081DDF5 /* Happy Worm.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F657287178344090081DDF5 /* Happy Worm.png */; };
+		3F657293178344090081DDF5 /* Hearts.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F657288178344090081DDF5 /* Hearts.png */; };
+		3F657294178344090081DDF5 /* Sad Worm.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F657289178344090081DDF5 /* Sad Worm.png */; };
+		3F657295178344090081DDF5 /* Spades.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F65728A178344090081DDF5 /* Spades.png */; };
+		3F657296178344090081DDF5 /* YouRock.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F65728B178344090081DDF5 /* YouRock.png */; };
+		3F657297178344090081DDF5 /* YouSuck.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F65728C178344090081DDF5 /* YouSuck.png */; };
+		3F65729A178356880081DDF5 /* OptionsVewControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F657299178356880081DDF5 /* OptionsVewControllerViewController.m */; };
 		3FEC34301781FECF0007BDDF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FEC342F1781FECF0007BDDF /* UIKit.framework */; };
 		3FEC34321781FECF0007BDDF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FEC34311781FECF0007BDDF /* Foundation.framework */; };
 		3FEC34341781FECF0007BDDF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FEC34331781FECF0007BDDF /* CoreGraphics.framework */; };
@@ -26,6 +38,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F657282178344090081DDF5 /* Acrobat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Acrobat.png; sourceTree = "<group>"; };
+		3F657283178344090081DDF5 /* Clubs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Clubs.png; sourceTree = "<group>"; };
+		3F657284178344090081DDF5 /* CowBoyBuilder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CowBoyBuilder.png; sourceTree = "<group>"; };
+		3F657285178344090081DDF5 /* DancingGang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DancingGang.png; sourceTree = "<group>"; };
+		3F657286178344090081DDF5 /* Diamonds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Diamonds.png; sourceTree = "<group>"; };
+		3F657287178344090081DDF5 /* Happy Worm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Happy Worm.png"; sourceTree = "<group>"; };
+		3F657288178344090081DDF5 /* Hearts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hearts.png; sourceTree = "<group>"; };
+		3F657289178344090081DDF5 /* Sad Worm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sad Worm.png"; sourceTree = "<group>"; };
+		3F65728A178344090081DDF5 /* Spades.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spades.png; sourceTree = "<group>"; };
+		3F65728B178344090081DDF5 /* YouRock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YouRock.png; sourceTree = "<group>"; };
+		3F65728C178344090081DDF5 /* YouSuck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YouSuck.png; sourceTree = "<group>"; };
+		3F657298178356880081DDF5 /* OptionsVewControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsVewControllerViewController.h; sourceTree = "<group>"; };
+		3F657299178356880081DDF5 /* OptionsVewControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsVewControllerViewController.m; sourceTree = "<group>"; };
 		3FEC342C1781FECF0007BDDF /* SopioCardGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SopioCardGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FEC342F1781FECF0007BDDF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3FEC34311781FECF0007BDDF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -65,6 +90,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F657281178344090081DDF5 /* Sopio Images */ = {
+			isa = PBXGroup;
+			children = (
+				3F657282178344090081DDF5 /* Acrobat.png */,
+				3F657283178344090081DDF5 /* Clubs.png */,
+				3F657284178344090081DDF5 /* CowBoyBuilder.png */,
+				3F657285178344090081DDF5 /* DancingGang.png */,
+				3F657286178344090081DDF5 /* Diamonds.png */,
+				3F657287178344090081DDF5 /* Happy Worm.png */,
+				3F657288178344090081DDF5 /* Hearts.png */,
+				3F657289178344090081DDF5 /* Sad Worm.png */,
+				3F65728A178344090081DDF5 /* Spades.png */,
+				3F65728B178344090081DDF5 /* YouRock.png */,
+				3F65728C178344090081DDF5 /* YouSuck.png */,
+			);
+			path = "Sopio Images";
+			sourceTree = "<group>";
+		};
 		3FEC34231781FECF0007BDDF = {
 			isa = PBXGroup;
 			children = (
@@ -95,12 +138,15 @@
 		3FEC34351781FECF0007BDDF /* SopioCardGame */ = {
 			isa = PBXGroup;
 			children = (
+				3F657281178344090081DDF5 /* Sopio Images */,
 				3FEC345A1782361D0007BDDF /* blankLogo.png */,
 				3FEC3458178233C00007BDDF /* SopioLogo.png */,
 				3FEC3456178206200007BDDF /* SillyConeVally.png */,
 				3FEC343E1781FECF0007BDDF /* AppDelegate.h */,
 				3FEC343F1781FECF0007BDDF /* AppDelegate.m */,
 				3FEC34471781FECF0007BDDF /* MainStoryboard.storyboard */,
+				3F657298178356880081DDF5 /* OptionsVewControllerViewController.h */,
+				3F657299178356880081DDF5 /* OptionsVewControllerViewController.m */,
 				3FEC344A1781FECF0007BDDF /* ViewController.h */,
 				3FEC344B1781FECF0007BDDF /* ViewController.m */,
 				3FEC34521781FF5B0007BDDF /* Card.h */,
@@ -185,6 +231,17 @@
 				3FEC3457178206200007BDDF /* SillyConeVally.png in Resources */,
 				3FEC3459178233C00007BDDF /* SopioLogo.png in Resources */,
 				3FEC345B1782361D0007BDDF /* blankLogo.png in Resources */,
+				3F65728D178344090081DDF5 /* Acrobat.png in Resources */,
+				3F65728E178344090081DDF5 /* Clubs.png in Resources */,
+				3F65728F178344090081DDF5 /* CowBoyBuilder.png in Resources */,
+				3F657290178344090081DDF5 /* DancingGang.png in Resources */,
+				3F657291178344090081DDF5 /* Diamonds.png in Resources */,
+				3F657292178344090081DDF5 /* Happy Worm.png in Resources */,
+				3F657293178344090081DDF5 /* Hearts.png in Resources */,
+				3F657294178344090081DDF5 /* Sad Worm.png in Resources */,
+				3F657295178344090081DDF5 /* Spades.png in Resources */,
+				3F657296178344090081DDF5 /* YouRock.png in Resources */,
+				3F657297178344090081DDF5 /* YouSuck.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,6 +257,7 @@
 				3FEC344C1781FECF0007BDDF /* ViewController.m in Sources */,
 				3FEC34541781FF5B0007BDDF /* Card.m in Sources */,
 				3FEC345E178237770007BDDF /* Player.m in Sources */,
+				3F65729A178356880081DDF5 /* OptionsVewControllerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +382,7 @@
 				3FEC34511781FECF0007BDDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
